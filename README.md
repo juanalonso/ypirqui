@@ -6,12 +6,14 @@
 Ypirquí (full name: Jennifer Ypirquí) is a [Node.js](https://nodejs.org) based [Slack](https://slack.com/) bot. It uses the great [SlackBots.js](https://github.com/mishk0/slack-bot-api) library by [Mikhail Mokrushin](https://github.com/mishk0).
 
 ### What does Jennifer Ypirquí do?
-Jennifer is like a five year old child, ridiculing you, repeating what you write, subtituting all the vowels with an i, a common form of mockery among kids in the Spanish language. You can also mention her (She will get back at the channel) or mention her and other users, and she will come back at _them_. Also, Jennifer interacts with emojis in her own peculiar way.
+Jennifer is like a five year old child, ridiculing you, repeating what you write, replacing all the vowels with an i, a common form of mockery among kids in the Spanish language. You can also mention her (She will get back at the channel) or mention her and other users, and she will come back at _them_. Also, Jennifer interacts with emojis in her own peculiar way.
+
+If you want some peace, you can mute her in a specific channel for `config.bot_mute_time` seconds by sending exactly `@ypirqui: ¡calla!` to the channel.
 
 ### Installation
 1. Create a new [bot integration](https://my.slack.com/services/new/bot) in Slack.
   * Name it **ypirqui** and write down the API Token, it will be needed later.
-  * You can add the bot a channel now or add the bot later.
+  * You can add the bot to one or several channels now or add the bot later.
   * For the bot avatar, we recommend using the "Uy, pues perdón" meme girl.
 
 <img src="https://cloud.githubusercontent.com/assets/1846199/14025530/d3b11dc2-f1ee-11e5-81d5-405e8d440b14.jpg" alt="Uy, pues perdon" width="242"/>
@@ -25,8 +27,10 @@ Jennifer is like a five year old child, ridiculing you, repeating what you write
 
 ### Additional configuration
 You can edit `config.js` to tune a bit Ypirquí's behaviour:
-- `config.bot_random`: controls the probability of Ypirquí's responses. Should be a number between 0 (always responds - not recommended) and 1 (never responds). A value around 0.75-0.85 is a good starting point.
+
+- `config.bot_random`: controls the probability of Ypirquí's responses. Should be a number between 0 (never responds) and 1 (always responds - not recommended). A value around 0.10-0.15 is a good starting point.
 - `config.bot_min_string_length`: If an user writes a string shorter than this value, Ypirquí will ignore it.
+- `config.bot_mute_time`: The time in seconds Ypirquí will be silent when you ask her to shut up.
 
 ### Heroku
 You can deploy Ypirquí on Heroku. Instructions will follow.
