@@ -13,7 +13,6 @@ If you want some peace, you can mute her in a specific channel for `config.bot_m
 ### Installation
 1. Create a new [bot integration](https://my.slack.com/services/new/bot) in Slack.
   * Name it **ypirqui** and write down the API Token, it will be needed later.
-  * You can add the bot to one or several channels now or add the bot later.
   * For the bot avatar, we recommend using the "Uy, pues perdón" meme girl.
 
 <img src="https://cloud.githubusercontent.com/assets/1846199/14025530/d3b11dc2-f1ee-11e5-81d5-405e8d440b14.jpg" alt="Uy, pues perdon" width="242"/>
@@ -31,8 +30,4 @@ You can edit `config.js` to tune a bit Ypirquí's behaviour:
 - `config.bot_random`: controls the probability of Ypirquí's responses. Should be a number between 0 (never responds) and 1 (always responds - not recommended). A value around 0.10-0.15 is a good starting point.
 - `config.bot_min_string_length`: If an user writes a string shorter than this value, Ypirquí will ignore it.
 - `config.bot_mute_time`: The time in seconds Ypirquí will be silent when you ask her to shut up.
-
-### Heroku
-You can deploy Ypirquí on Heroku. Instructions will follow.
-
 
