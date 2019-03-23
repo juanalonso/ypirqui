@@ -7,7 +7,7 @@
     "start": "node lib/ypirqui.js"
   },
   "dependencies": {
-    "slackbots": "^0.5.1"
+    "slackbots": "^1.2.0"
   },
   "engines": {
     "node": "5.8.0"
