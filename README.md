@@ -8,7 +8,7 @@ Ypirquí (full name: Jennifer Ypirquí) is a [Node.js](https://nodejs.org) based
 ### What does Jennifer Ypirquí do?
 Jennifer is like a five year old child, ridiculing you, repeating what you write, replacing all the vowels with an i, a common form of mockery among kids in the Spanish language. You can also mention her (She will get back at the channel) or mention her and other users, and she will come back at _them_. Also, Jennifer interacts with emojis in her own peculiar way.
 
-If you want some peace, you can mute her in a specific channel for `config.bot_mute_time` seconds by sending exactly `@ypirqui: ¡calla!` to the channel.
+If you want some peace, you can mute her in a specific channel for `config.bot_mute_time` seconds by sending exactly `@ypirqui calla` to the channel.
 
 ### Installation
 1. Create a new [bot integration](https://my.slack.com/services/new/bot) in Slack.
